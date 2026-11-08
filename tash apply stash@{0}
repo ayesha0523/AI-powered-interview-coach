@@ -1,0 +1,12 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex eff0269..116a36e 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -11,6 +11,7 @@[m [mwheels/[m
+ # Local environment and secrets[m
+ .env[m
+ .env.*[m
+[32m+[m[32m/artifacts/experimental_answer_classifier.joblib[m
+ [m
+ # Local database - keep out of Git history[m
+ db.sqlite3[m
